@@ -1,0 +1,19 @@
+{
+    "name": "projectdetailsappapi",
+    "version": "1.0.0",
+    "description": "Stores project details and provides easy to view and search functionality",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Shahzaib Habib",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.1",
+        "slugify": "^1.4.5"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.4"
+    }
+}

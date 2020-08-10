@@ -1,0 +1,97 @@
+/********************************************************************************/
+/*  GLOBAL STYLES  */
+/********************************************************************************/
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    width: 90%;
+    margin: 0px auto;
+}
+
+/********************************************************************************/
+/*  PROJECTS PAGE  */
+/********************************************************************************/
+
+.cards-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.cards-container .card {
+    width: 30%;
+    padding: 10px;
+    border: 3px solid;
+    border-color: #7d3bb9;
+    border-radius: 10px;
+    margin: 5px;
+    text-align: center;
+}
+
+.cards-container .card .details {
+    padding-bottom: 10px;
+}
+
+.cards-container .card .details h3 {
+    margin: 10px 0px;
+}
+
+.cards-container .card .details h4 {
+    font-weight: 400;
+    margin: 10px 0px;
+}
+
+.cards-container .card .technical_details {
+    padding: 10px 0px 20px;
+}
+
+.cards-container .card .technical_details p {
+    margin: 5px 0px;
+}
+
+.cards-container .card .card_link_wrapper {
+    margin: 15px;
+}
+
+.cards-container .card .card_link_wrapper a {
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight: 600;
+    color: #ffffff;
+    border: 3px solid;
+    border-color: #7d3bb9;
+    border-radius: 10px;
+    padding: 5px 20px;
+    background-color: #7d3bb9;
+}
+
+.cards-container .card .card_link_wrapper a:hover {
+    background-color: #8e51c8;
+}
+
+/********************************************************************************/
+/*  PROJECT PAGE  */
+/********************************************************************************/
+
+.project_container .details {
+    padding-bottom: 10px;
+}
+
+.project_container .details h3 {
+    margin: 10px 0px;
+}
+
+.project_container .details h4 {
+    font-weight: 400;
+    margin: 10px 0px;
+}
+
+.project_container .technical_details {
+    padding: 10px 0px 20px;
+}
+
+.project_container .technical_details p {
+    margin: 5px 0px;
+}
